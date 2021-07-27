@@ -2,11 +2,15 @@ body{
 	font-family: 'Roboto', sans-serif;
 	color: #0A143A;
 }
-/* ================================= [ { HEADER  } ] ======================================= */
-.header{
+.container{
 	max-width: 1146px;
 	margin: auto;
+}
+/* ================================= [ { HEADER  } ] ======================================= */
+.header{
 	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 12px;
 }
 .navbar{
 	display: flex;
@@ -72,4 +76,125 @@ body{
 }
 .search-button-text{
 	margin-left: 5px;
+}
+
+.page-content{
+	display: grid;
+	grid-template-columns: 9fr 3fr;
+	grid-column-gap: 30px;
+}
+
+.card-image{
+	border-radius: 10px;
+	width: 264px;
+	height: 178px;
+	object-fit: cover;
+}
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.card{
+	margin-bottom: 20px;
+}
+.card-title{
+	font-size: 16px;
+	line-height: 19px;
+	color: #256EEB;
+	padding-top: 12px;
+	padding-bottom: 5px;
+	margin: 0;
+}
+.card-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.like{
+	background-color: #fff;
+	border: none;
+	cursor: pointer;
+	padding-left: 15px;
+}
+.card-price{
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 19px;
+	color: #0A143A;
+	display: block;
+}
+.card-text{
+	font-size: 14px;
+	line-height: 16px;
+	color: #C4C4C4;
+	margin-bottom: 4px;
+	margin-top: 0;
+}
+.card-link{
+	text-decoration: none;
+}
+
+.page-title{
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.services{
+	margin-bottom: 37px;
+}
+.service{
+	margin-bottom: 25px;
+}
+.service-image{
+	margin: 0px;
+	margin-bottom: 7px;
+}
+.service-text{
+	font-size: 14px;
+	line-height: 16px;
+	color: #0A143A;
+	margin: 0;
+}
+.sidebar hr{
+	width: 100%;
+	height: 0;
+	border: 1px solid #E5E5E5;
+	margin-bottom: 18px;
+}
+.service-title{
+	font-size: 14px;
+	line-height: 16px;
+	color: #0A143A;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.info{
+	font-size: 14px;
+	line-height: 16px;
+	color: #C4C4C4;
+	margin-bottom: 16px;
+}
+.copyright{
+	margin: 0;
+	margin-bottom: 5px;
+}
+.info-link{
+	text-decoration-line: underline;
+	color: #C4C4C4;
+	margin-bottom: 5px;
+}
+.footer a{
+	display: block;
+	font-size: 12px;
+	line-height: 14px;
+	text-decoration: none;
+	color: black;
+	margin: 0;
+	margin-bottom: 5px;
+}
+.footer a:first-child{
+	color: #0A143A;
 }
